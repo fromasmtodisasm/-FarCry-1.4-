@@ -1413,7 +1413,6 @@ bool CXGame::Load(string sFileName)
 		m_pUISystem->StopAllVideo();
 	}
 	
-	//time_t t = time(0);
 	srand(time(0));
 	int x=rand() % 3+1;
 	if( x==1 )this->l_music1->Play(1,1,1);
